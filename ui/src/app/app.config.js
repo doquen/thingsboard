@@ -1,4 +1,3 @@
-
 /*
  * Copyright © 2016-2020 The Thingsboard Authors
  *
@@ -105,7 +104,7 @@ export default function AppConfig($provide,
     }
 
     function indigoTheme() {
-        var tbPrimaryPalette = $mdThemingProvider.extendPalette('teal', {
+        var tbPrimaryPalette = $mdThemingProvider.extendPalette('indigo', {
             '500': PRIMARY_BACKGROUND_COLOR,
             '600': SECONDARY_BACKGROUND_COLOR,
             'A100': HUE3_COLOR
@@ -140,7 +139,7 @@ export default function AppConfig($provide,
 
     function configureTheme() {
 
-        var theme = 'teal';
+        var theme = 'indigo';
 
         if (theme === 'blueGray') {
             blueGrayTheme();

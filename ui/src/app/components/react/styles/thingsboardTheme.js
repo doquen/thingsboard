@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { blueGrey500, blueGrey700, blueGrey100, orange500,
-    grey100, grey500, grey900, grey600, white, grey400, darkBlack, cyan500, fullBlack/*, indigo500*/, indigo700, indigo100, deepOrange500, teal700, teal100 } from 'material-ui/styles/colors';
+import { /*blueGrey500, blueGrey700, blueGrey100, orange500,*/
+         grey100, grey500, grey900, grey600, white, grey400, darkBlack, cyan500, fullBlack/*, indigo500*/, indigo700, indigo100, deepOrange500 } from 'material-ui/styles/colors';
 import {fade} from 'material-ui/utils/colorManipulator';
 import spacing from 'material-ui/styles/spacing';
 
-const PRIMARY_BACKGROUND_COLOR = "#0D7E84";//"#3f51b5";
+const PRIMARY_BACKGROUND_COLOR = "#305680";//"#3f51b5";
 
-var blueGrayPalette = {
+/*var blueGrayPalette = {
     primary1Color: blueGrey500,
     primary2Color: blueGrey700,
     primary3Color: blueGrey100,
@@ -36,7 +36,7 @@ var blueGrayPalette = {
     pickerHeaderColor: cyan500,
     clockCircleColor: fade(darkBlack, 0.07),
     shadowColor: fullBlack,
-};
+};*/
 
 var indigoPalette = {
     primary1Color: PRIMARY_BACKGROUND_COLOR,
