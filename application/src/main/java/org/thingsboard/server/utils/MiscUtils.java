@@ -75,7 +75,7 @@ public class MiscUtils {
 
         String baseUrl = String.format("%s://%s:%d",
                 scheme,
-                request.getServerName(),
+                "sisconet.com.ar",
                 serverPort);
         return baseUrl;
     }
