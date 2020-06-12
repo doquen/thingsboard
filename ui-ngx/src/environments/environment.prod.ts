@@ -21,5 +21,5 @@ export const environment = {
   tbVersion: TB_VERSION,
 // @ts-ignore
   supportedLangs: SUPPORTED_LANGS,
-  defaultLang: 'es_ES'
+  defaultLang: 'en_US'
 };
