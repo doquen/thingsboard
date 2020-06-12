@@ -15,7 +15,7 @@
 ///
 
 export const environment = {
-  appTitle: 'SiscoNet',
+  appTitle: 'ThingsBoard',
   production: true,
 // @ts-ignore
   tbVersion: TB_VERSION,
